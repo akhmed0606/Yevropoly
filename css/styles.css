@@ -373,6 +373,79 @@ input:focus, select:focus, textarea:focus{
 .footer-links a:hover{ color: rgba(255,255,255,.98); }
 .footer-meta{ text-align: right; }
 
+/* WHY YEVRO BLOCK */
+.why-yevropoly {
+  background: #f5c400; /* y-yellow */
+  color: #0b0b0b;
+  padding: 60px 0;
+}
+
+.why-yevropoly h2 {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+}
+
+.why-grid div {
+  background: rgba(0,0,0,0.08);
+  padding: 16px 18px;
+  border-radius: 10px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+/* Mobile */
+@media (max-width: 900px) {
+  .why-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .why-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* FAQ SECTION */
+.faq-section {
+  padding: 70px 0;
+  background: #0b1220;
+}
+
+.faq-section h2 {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.faq-section details {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 12px;
+  padding: 16px 18px;
+  margin-bottom: 14px;
+}
+
+.faq-section summary {
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.faq-section p {
+  margin-top: 10px;
+  color: rgba(255,255,255,0.85);
+  line-height: 1.6;
+}
+
+
 /* RESPONSIVE */
 @media (max-width: 920px){
   .grid-3{ grid-template-columns: 1fr; }
