@@ -46,10 +46,11 @@ h3{ font-size: 1.1rem; }
   letter-spacing: .14em;
   font-size: .78rem;
   color: rgba(255,255,255,.78);
-  margin-top: 10px;
   margin-bottom: 10px;
 }
-
+.fineprint {
+ margin-top: 10px;
+}
 .skip-link{
   position: absolute;
   left: -999px;
