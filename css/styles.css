@@ -374,6 +374,10 @@ input:focus, select:focus, textarea:focus{
 .footer-links a:hover{ color: rgba(255,255,255,.98); }
 .footer-meta{ text-align: right; }
 
+.muted{
+  margin-top: 18px;
+}
+
 /* WHY YEVRO BLOCK */
 .why-yevropoly {
   background: #f5c400; /* y-yellow */
