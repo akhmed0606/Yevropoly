@@ -94,7 +94,7 @@ ul { list-style: none; }
 }
 .nav-container { display: flex; justify-content: space-between; align-items: center; width: 100%; }
 
-.logo img { height: 120px; width: auto; }
+.logo img { height: 140px; width: auto; }
 
 .nav-menu ul { display: flex; gap: 30px; align-items: center; }
 .nav-menu a { font-size: 0.95rem; font-weight: 500; color: var(--text); }
