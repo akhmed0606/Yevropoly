@@ -89,12 +89,12 @@ ul { list-style: none; }
     background: white;
     border-bottom: 1px solid var(--border);
     position: fixed; top: 0; width: 100%; z-index: 1000;
-    height: 130px;
+    height: 120px;
     display: flex; align-items: center;
 }
 .nav-container { display: flex; justify-content: space-between; align-items: center; width: 100%; }
 
-.logo img { height: 125px; width: auto; }
+.logo img { height: 115px; width: auto; }
 
 .nav-menu ul { display: flex; gap: 30px; align-items: center; }
 .nav-menu a { font-size: 0.95rem; font-weight: 500; color: var(--text); }
@@ -353,6 +353,5 @@ footer p { color: #94a3b8; margin-bottom: 10px; }
     .hero h1 { font-size: 2rem; }
     .col-img, .product-img { width: 100%; }
     .btn-primary { width: 100%; }
-   .logo img { height: 110px; width: auto; }
 }
 
