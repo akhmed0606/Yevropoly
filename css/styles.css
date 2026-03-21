@@ -330,6 +330,10 @@ footer p { color: #94a3b8; margin-bottom: 10px; }
 }
 
 @media (max-width: 768px) {
+   
+   .header { height: 100px; }
+    .logo img { height: 75px; }
+   
     /* Accessories 3-column fix for mobile */
     .row-accessories { grid-template-columns: 1fr; }
     .profile-card { padding: 20px; }
