@@ -94,7 +94,7 @@ ul { list-style: none; }
 }
 .nav-container { display: flex; justify-content: space-between; align-items: center; width: 100%; }
 
-.logo img { height: 110px; width: auto; }
+.logo img { height: 100px; width: auto; }
 
 .nav-menu ul { display: flex; gap: 30px; align-items: center; }
 .nav-menu a { font-size: 0.95rem; font-weight: 500; color: var(--text); }
@@ -330,7 +330,7 @@ footer p { color: #94a3b8; margin-bottom: 10px; }
 }
 
 @media (max-width: 768px) {
-   .logo img { height: 100px; width: auto; }
+   .logo img { height: 80px; width: auto; }
     /* Accessories 3-column fix for mobile */
     .row-accessories { grid-template-columns: 1fr; }
     .profile-card { padding: 20px; }
