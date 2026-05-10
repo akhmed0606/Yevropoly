@@ -316,44 +316,6 @@ footer p { color: #94a3b8; margin-bottom: 10px; }
 /* Centered Button Wrapper */
 .accessories-cta-wrapper { display: flex; justify-content: center; align-items: center; width: 100%; margin-top: 40px; }
 
-/* --- Navigation Dropdown --- */
-.nav-menu ul li.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.nav-menu ul li.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #ffffff;
-    min-width: 240px;
-    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
-    z-index: 100;
-    border-radius: 8px;
-    top: 100%;
-    left: 0;
-    overflow: hidden;
-    border: 1px solid #eaeaea;
-}
-
-.nav-menu ul li.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.dropdown-content a {
-    color: #333333 !important;
-    padding: 14px 20px !important;
-    text-decoration: none;
-    display: block;
-    font-size: 0.95rem;
-    font-weight: 500 !important;
-    transition: background-color 0.2s ease, color 0.2s ease;
-}
-
-.dropdown-content a:hover {
-    background-color: #f8f9fa;
-    color: #0f172a !important; /* Your navy accent */
-}
 
 /* =========================================
    11. MOBILE / RESPONSIVE
