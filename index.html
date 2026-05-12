@@ -57,7 +57,14 @@
                 <ul>
                     <li><a href="/">Home</a></li>
                     <li><a href="/about">About Us</a></li>
-                    <li><a href="/#products">Products</a></li>
+                    <li class="nav-dropdown">
+                        <a href="/#products" class="nav-dropdown-link">Products <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/multiwall.html">Multiwall Polycarbonate</a></li>
+                            <li><a href="/solid-polycarbonate.html">Solid Polycarbonate</a></li>
+                            <li><a href="/polycarbonate-profiles.html">Profiles & Accessories</a></li>
+                        </ul>
+                    </li>
                     <li><a href="/#accessories">Systems</a></li>
                     <li><a href="/warranty">Warranty</a></li>
                     <li><a href="/#logistics">Logistics</a></li>
@@ -127,7 +134,7 @@
             </div>
             <div class="product-block">
                 <div class="product-img">
-                    <img src="assets/images/yevro-multiwall-x-structure.jpeg" alt="Multiwall Polycarbonate">
+                    <img src="assets/images/products/yevro-multiwall-colors.webp" alt="Multiwall Polycarbonate">
                 </div>
                 <div class="product-text">
                     <h3>Multiwall Polycarbonate Sheets</h3>
@@ -147,6 +154,10 @@
                     <div class="tech-note">
                         <i class="fas fa-info-circle"></i> Standard UV protection is designed for long-term outdoor exposure.
                     </div>
+                    <div class="inline-card-link">
+                        <a href="/multiwall.html" class="btn-secondary">View Multiwall Details</a>
+                        <a href="/#contact" class="btn-primary">Request Pricing</a>
+                    </div>
                 </div>
             </div>
 
@@ -154,7 +165,7 @@
 
             <div class="product-block reverse">
                 <div class="product-img">
-                    <img src="assets/images/yevro-polycarbonate-sheet-factory.jpg" alt="Solid Yevro Polycarbonate Factory">
+                    <img src="assets/images/products/yevro-solid-colors.webp" alt="Solid Yevro Polycarbonate Factory">
                 </div>
                 <div class="product-text">
                     <h3>Solid Polycarbonate Sheets</h3>
@@ -171,6 +182,10 @@
                     </ul>
                     <div class="tech-note">
                         <i class="fas fa-info-circle"></i> Performance varies by thickness. Refer to TDS.
+                    </div>
+                    <div class="inline-card-link">
+                        <a href="/solid-polycarbonate.html" class="btn-secondary">View Solid Details</a>
+                        <a href="/#contact" class="btn-primary">Request Pricing</a>
                     </div>
                 </div>
             </div>
@@ -234,7 +249,7 @@
                 </div>
             </div>
             <div class="accessories-cta-wrapper">
-                <a href="#contact" class="btn btn-primary">Request System Pricing</a>
+                <a href="/polycarbonate-profiles.html" class="btn btn-primary">View Profile Systems</a>
             </div>
         </div>
     </section>
@@ -266,10 +281,10 @@
             <div class="row">
                 <div class="col-text">
                     <h2>Technical Documentation</h2>
-                    <p>Technical documentation is available to support product evaluation and project planning. Documents ensure accurate specifications and material performance expectations.</p>
+                    <p>Technical documentation is available by request to support product evaluation and project planning. We provide the current TDS version after confirming the product type, thickness, colour, and intended application.</p>
                    <div class="download-buttons">
-    <a href="mailto:akhmed@yevropolycarbonate.com?subject=Request for Multiwall Polycarbonate TDS" class="btn-download">Request Multiwall TDS</a>
-    <a href="mailto:akhmed@yevropolycarbonate.com?subject=Request for Solid Polycarbonate TDS" class="btn-download">Request Solid TDS</a>
+    <a href="#contact" class="btn-download">Request Multiwall TDS</a>
+    <a href="#contact" class="btn-download">Request Solid TDS</a>
 </div>
                 </div>
                 <div class="col-img">
@@ -408,6 +423,8 @@
                 <div class="quote-card">
                     <form id="contact-form" class="form" action="https://formspree.io/f/xzdadgjq" method="POST">
                         <input type="text" name="_gotcha" class="honeypot" style="display:none">
+                        <input type="hidden" name="page" value="Homepage contact section">
+                        <input type="hidden" name="_subject" value="New Yevro Website Quote Request">
                         <div class="form-row">
                             <label>Name <input type="text" name="name" placeholder="John Doe" required></label>
                             <label>Company <input type="text" name="company" placeholder="Business Name" required></label>
@@ -429,8 +446,9 @@
                                 </select>
                             </label>
                         </div>
+                        <label class="checkbox-line"><input type="checkbox" name="technical_documents_requested" value="Yes"> Send me the current TDS / technical documentation</label>
                         <label>Project Details
-                            <textarea name="message" rows="4" placeholder="Describe your requirements..."></textarea>
+                            <textarea name="message" rows="4" placeholder="Describe your requirements, delivery location, or which TDS you need..."></textarea>
                         </label>
                         <div class="form-actions">
                             <button type="submit" class="btn-primary">Request Quote</button>
@@ -448,6 +466,9 @@
             <div class="footer-links" style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; margin-bottom: 10px;">
                 <a href="/">Home</a>
                 <a href="/#products">Products</a>
+                <a href="/multiwall.html">Multiwall</a>
+                <a href="/solid-polycarbonate.html">Solid</a>
+                <a href="/polycarbonate-profiles.html">Profiles</a>
                 <a href="/warranty">Warranty</a>
                 <a href="/#logistics">Logistics</a>
                 <a href="/#contact">Contact</a>
